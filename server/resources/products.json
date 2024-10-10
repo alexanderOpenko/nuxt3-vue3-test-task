@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Polo",
+        "description": "Comfortable and stylish classic polo shirt.",
+        "price": 15.99,
+        "image": "/images/polo-lacost.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Basic Tee",
+        "description": "Simple and durable t-shirt for everyday wear.",
+        "price": 14.99,
+        "image": "/images/basic_tee.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cotton T-Shirt",
+        "description": "Soft cotton t-shirt available in multiple colors.",
+        "price": 13.99,
+        "image": "/images/cotton_tshirt.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sport Shorts",
+        "description": "Breathable sport shorts, perfect for active wear.",
+        "price": 18.50,
+        "image": "/images/sport_shorts.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Casual Shirt",
+        "description": "Lightweight casual shirt for all seasons.",
+        "price": 19.99,
+        "image": "/images/casual_shirt.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Denim Jeans",
+        "description": "Classic straight-cut jeans, perfect for daily use.",
+        "price": 25.99,
+        "image": "/images/denim_jeans.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Urban denim",
+        "description": "Stylish pants for semi-casual occasions.",
+        "price": 28.99,
+        "image": "/images/urban_denim.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Leather Belt",
+        "description": "High-quality leather belt, perfect for formal and casual wear.",
+        "price": 22.50,
+        "image": "/images/leather_belt.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sneakers",
+        "description": "Comfortable and lightweight sneakers for active lifestyle.",
+        "price": 32.99,
+        "image": "/images/sneakers.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Running Shoes",
+        "description": "Professional running shoes with enhanced cushioning.",
+        "price": 40.00,
+        "image": "/images/running_shoes.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Wool Sweater",
+        "description": "Warm wool sweater for chilly weather.",
+        "price": 35.50,
+        "image": "/images/sweater.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Designer Jacket",
+        "description": "Elegant designer jacket for formal and casual outings.",
+        "price": 55.99,
+        "image": "/images/jaket.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Leather Boots",
+        "description": "Durable leather boots with water-resistant features.",
+        "price": 60.00,
+        "image": "/images/boots.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Winter Coat",
+        "description": "Heavy-duty winter coat with thermal insulation.",
+        "price": 75.99,
+        "image": "/images/winter_coat.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Wallet",
+        "description": "A sleek, minimalist wallet designed for secure and convenient everyday use, featuring multiple card slots and a slim profile for easy portability.",
+        "price": 45.50,
+        "image": "/images/wallet.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Hat",
+        "description": "Stylish, comfortable baseball hat made from high-quality cotton.",
+        "price": 120.00,
+        "image": "/images/hat.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Leather Bag",
+        "description": "High-end leather bag for business and travel.",
+        "price": 150.99,
+        "image": "/images/bag.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Cap",
+        "description": "Stylish and functional accessory, perfect for everyday wear or outdoor activities.",
+        "price": 200.00,
+        "image": "/images/cap.jpg"
+    }
+]
