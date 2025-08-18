@@ -1,25 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { cardConfig } from '/utils/cardConfig.js'
+import { products as productsJSON } from '~/public/products'
 
 let products = ref([])
 let categorizedProducts = ref([])
 let activeFilterPriceBtn = ref("")
 let activeSortOption = ref("")
 
-async function getAllProducts() {
-    try {
-        const response = await $fetch('/products')
-
-        if (!response.error) {
-            products.value = response.products
-            categorizeProducts()
-        } else {
-            throw new Error(response.error)
-        }
-    } catch (e) {
-        alert(e)
-    }
+function loadProducts() {
+    products.value = [...productsJSON]
+    categorizeProducts()
 }
 
 function categorizeProducts() {
@@ -70,13 +61,14 @@ function resetFilters() {
     activeFilterPriceBtn.value = ""
     activeSortOption.value = ""
 
-    getAllProducts()
+    loadProducts()
 }
 
 onMounted(() => {
-    getAllProducts()
+    loadProducts()
 })
 </script>
+
 
 <template>
     <div class="home content-container !pt-10">
