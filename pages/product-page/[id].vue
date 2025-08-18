@@ -9,9 +9,7 @@ import { ref, onMounted } from 'vue'
         const response = await $fetch(`/product/${id}`)
 
         if (!response.error) {
-            product.value = response.product
-            console.log(product.value, 'product');
-            
+            product.value = response.product            
         } else {
             throw new Error(response.error)
         }
